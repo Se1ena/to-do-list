@@ -1,0 +1,2 @@
+const t=document.querySelector("form"),e=document.querySelector("#tasks");t.addEventListener("submit",(function(t){t.preventDefault();const n=`<li class="item">${t.target[0].value}<button type="button" data-action="remove" data-id="">Remove</button></li>`;e.insertAdjacentHTML("beforeend",n)})),e.addEventListener("click",(function(t){"remove"===t.target.dataset.action&&t.target.closest(".item").remove()}));
+//# sourceMappingURL=index.53ec841b.js.map

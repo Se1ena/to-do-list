@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector("form"),e=document.querySelector("#tasks");t.addEventListener("submit",(function(t){t.preventDefault();var n=t.target[0].value,a='<li class="item">'.concat(n,'<button type="button" data-action="remove" data-id="">Remove</button></li>');e.insertAdjacentHTML("beforeend",a)})),e.addEventListener("click",(function(t){"remove"===t.target.dataset.action&&t.target.closest(".item").remove()}))}();
+//# sourceMappingURL=index.1531f28c.js.map
